@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TicketPipeline.Tests/TicketPipeline.Tests.csproj" />
+  <Project Path="TicketPipeline/TicketPipeline.csproj" />
+</Solution>

@@ -1,0 +1,3 @@
+Git repository: https://github.com/OlimpiyaNuralieva/TicketPipeline-FinalExam
+Branch: main
+Final commit: 28068e228823fb7aeca7363500743dbce9500511

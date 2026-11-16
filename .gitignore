@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+.idea/
+native/out/*
+!native/out/.gitkeep
+assignments.csv
+queue-report*.csv
+*.tmp
