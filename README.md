@@ -7,7 +7,7 @@ Introduction to Functional Programming, final exam 2026/2027. Individual project
 | Student | Nuralieva Olimpiya, group IT-2514 |
 | Repository URL | https://github.com/OlimpiyaNuralieva/TicketPipeline-FinalExam |
 | Branch | `main` |
-| Final commit | `28068e228823fb7aeca7363500743dbce9500511` (all code, data and tests are in this commit) |
+| Final commit | `bad8a166737e85c17f28b0e3b57d8b36b9cf50e5` (all code, data and tests are in this commit) |
 | SDK | .NET SDK 10.0.x (`net10.0`), xUnit 2.9.3 |
 | Native compiler | gcc (Windows x64: MSYS2 UCRT64 gcc; Linux x64: gcc 13), see section 8 |
 
@@ -141,7 +141,7 @@ Test files: `TicketTests`, `PipelineTests`, `WorkflowTests`, `ResultTests`, `Sco
 Required groups: pure functions and validation (`TicketTests`, `PipelineTests`, `ScoringTests`, `AgentTests`), complete workflows
 (`IntegrationTests`, `DispatchTests.FullWorkflow_FromFiles_AssignsReportsAndSaves`), file handling
 (`FileTests` incl. the empty-path case, `AgentTests.Load_*`), native (`NativeTests`: a real call and a controlled failure).
-Total: 83 tests (`dotnet test`; every `[Fact]` and every `[InlineData]` case is counted). `FileTests` also checks that a failed export keeps the old report file.
+Total: 83 tests (`dotnet test`; every `[Fact]` and every `[InlineData]` case is counted). Last run (.NET 10.0.12, native library built with gcc 16.2.0): total 83, failed 0, succeeded 83. `FileTests` also checks that a failed export keeps the old report file.
 
 ## 10. Help received
 
